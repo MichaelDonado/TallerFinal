@@ -4,7 +4,7 @@ Taller de Métodos Numéricos, que está dirigido a estudiantes de Ingeniería d
 
 # Nota
 
-Nota: Profesor en el codigo de descomposición de LU, le sugerimos que para que funcione correctamente el algoritmo importe la librería scipy y la libreria numpy.
+Apreciado usuario en el codigo de descomposición de LU, le sugerimos que para que funcione correctamente el algoritmo importe la librería scipy y la libreria numpy.
 
 # Grupo
 
@@ -18,4 +18,5 @@ $ pip install Flask
 
 En el directorio del proyecto, puede ejecutar:
 
-### `python main.py`
+### `python descomposiciónLU.py`
+### `python gaussSeidel.py`

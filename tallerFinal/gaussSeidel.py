@@ -11,14 +11,14 @@ def distinf(x, y):
 def GaussSeidel(A, b, x0, TOL, MAX):
     """ Implementación del método de Gauss-Seidel
         Entradas:
-        A -- matriz cuadrada
-        b -- vector
-        x0 -- aproximación inicial
-        TOL -- tolerancia
-        MAX -- número máximo de iteraciones
+        A = matriz cuadrada
+        b = vector
+        x0 = aproximación inicial
+        TOL = tolerancia
+        MAX = número máximo de iteraciones
         Salida:
-        x -- aproximación a solución del sistema Ax = b
-        None -- en caso de agotar las iteraciones o presentar errores 
+        x = aproximación a solución del sistema Ax = b
+        None = cuando se agoten las iteraciones o se presenten errores 
     """
     n = len(A)
     x = [0.0 for x in range(n)]
@@ -33,7 +33,7 @@ def GaussSeidel(A, b, x0, TOL, MAX):
             x[i] = (b[i] - s1 - s2)/A[i][i]
         pprint(x)
         if distinf(x, x0) < TOL:
-            print(r"Solución hallada")
+            print(r"Resultado encontrado")
             return x
         k += 1
         for i in range(n):

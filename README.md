@@ -13,6 +13,8 @@ Grupo: Jesús Barros, Michael Donado y Daniel Lerma
 ### API
 ```
 $ pip install Flask
+$ pip install numpy
+$ pip install scipy
 ```
 # Init
 
